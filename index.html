@@ -11,115 +11,185 @@
 </head>
 
 <body>
+    <!-- ID link so link can scroll to top of page -->
+    <a id="top"></a>
+    <!-- entire page container -->
     <div class="overall-container justify-content-center">
         <!-- Nav bar -->
-        <div class="left-navbar rounded mt-4">
-            <img src="./images/Profile Pic.jpg" alt="profile-pic" class="">
-            <h1>Aaron Hsu</h1>
-            <h5>Coding Dojo | Full Stack student</h5>
-            <ol>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Services</li>
-                <li>Certifications</li>
-                <li>Projects</li>
-                <li>Experience</li>
-                <li>Education</li>
-                <li>References</li>
-                <li>Contact</li>
-            </ol>
+        <div class="left-navbar-container mt-4 col-lg-3">
+            <div class="left-navbar rounded">
+                <img src="./images/Profile Pic.jpg" alt="profile-pic" class="">
+                <h1>Aaron Hsu</h1>
+                <h5>Future Ninja Developer</h5>
+                <ol>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#references">References</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ol>
+                <div class="social-links">
+                    <a class="link-social" href="https://github.com/aaron-hsu86">
+                        <img src="./images/github.png" alt="github-icon">
+                        GitHub
+                    </a>
+                    <a class="link-social" href="https://www.linkedin.com/in/aaronhsu/">
+                        <img src="./images/Linkedin-logo.png" alt="linkedIn-logo">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
         </div>
         <!-- show top navbar when in mobile mode? -->
         <div class="top-navbar">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia autem nemo obcaecati assumenda
-                ducimus repellendus libero quae dolore dolor? Nihil, ratione obcaecati harum ut explicabo similique
-                aliquid nisi quo?</p>
+            <p>Navbar is currently hidden. Will reveal when I figure out changing to a mobile setting</p>
         </div>
 
         <!-- Body material -->
-        <div class="body-container col-lg-7 mt-4">
-            <div class="home-container card shadow mb-3">
+        <div class="body-container col-lg-8 mt-4">
+            <div class="home-container card shadow mb-5">
                 <div class="card-header">
                     <p>Home</p>
                 </div>
                 <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia autem nemo obcaecati
-                        assumenda ducimus repellendus libero quae dolore dolor? Nihil, ratione obcaecati harum ut
-                        explicabo similique aliquid nisi quo?</p>
+                    <p>Welcome to my page!</p>
                 </div>
             </div>
-            <div class="about-container card shadow mb-3">
+            <div id="about" class="about-container card shadow mb-5">
                 <div class="card-header">
                     <p>About</p>
                 </div>
                 <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia autem nemo obcaecati
-                        assumenda ducimus repellendus libero quae dolore dolor? Nihil, ratione obcaecati harum ut
-                        explicabo similique aliquid nisi quo?</p>
+                    <h3>Hello there! Aaron here!</h3>
+                    <p>My name is Aaron. I'm in the process of becoming a Full-Stack developer and learning through
+                        struggle in the Coding Dojo Full Stack program! I have a diverse background ranging from a
+                        degree in Digital Media & Animation, to doing Black & Gray box testing and functional QA
+                        testing. I'm a passionate gamer, interested in game design and development, a casual enjoyer of
+                        all forms of media, and a tentative D&D enthusiast. I'm pleased to make your acquaintance!</p>
                 </div>
             </div>
-            <div class="skills-container card shadow mb-3">
+            <div id="services" class="services-container card shadow mb-5">
+                <div class="card-header">
+                    <p>Services I provide with my expertise:</p>
+                </div>
+                <div class="card-body">
+                    <div class="expertise-card">
+                        <p>Quality Assurance</p>
+                        <p>Functional testing and issue tracking</p>
+                    </div>
+                    <div class="expertise-card">
+                        <p>Software (in-progress)</p>
+                        <p>Backend and Frontend development</p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="skills" class="skills-container card shadow mb-5">
                 <div class="card-header">
                     <p>Skills</p>
                 </div>
                 <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia autem nemo obcaecati
-                        assumenda ducimus repellendus libero quae dolore dolor? Nihil, ratione obcaecati harum ut
-                        explicabo similique aliquid nisi quo?</p>
+                    <p>I have skills pertaining to Black & Gray box QA testing and am working on building up my skills
+                        as a programmer. Check out some of my skills below:</p>
                 </div>
             </div>
-            <div class="services-container card shadow mb-3">
-                <div class="card-header">
-                    <p>Services</p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia autem nemo obcaecati
-                        assumenda ducimus repellendus libero quae dolore dolor? Nihil, ratione obcaecati harum ut
-                        explicabo similique aliquid nisi quo?</p>
-                </div>
-            </div>
-            <div class="certification-container card shadow mb-3">
+            <div id="certifications" class="certification-container card shadow mb-5">
                 <div class="card-header">
                     <p>Certifications</p>
                 </div>
                 <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia autem nemo obcaecati
-                        assumenda ducimus repellendus libero quae dolore dolor? Nihil, ratione obcaecati harum ut
-                        explicabo similique aliquid nisi quo?</p>
+                    <p>Ninja Turtle</p>
                 </div>
             </div>
-            <div class="projects-container card shadow mb-3">
+            <div id="projects" class="projects-container card shadow mb-5">
                 <div class="card-header">
                     <p>Projects</p>
                 </div>
                 <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia autem nemo obcaecati
-                        assumenda ducimus repellendus libero quae dolore dolor? Nihil, ratione obcaecati harum ut
-                        explicabo similique aliquid nisi quo?</p>
+                    <p>Space to link projects</p>
                 </div>
             </div>
-            <div class="experience-container card shadow mb-3">
+            <div id="experience" class="experience-container card shadow mb-5">
                 <div class="card-header">
                     <p>Experience</p>
                 </div>
                 <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia autem nemo obcaecati
-                        assumenda ducimus repellendus libero quae dolore dolor? Nihil, ratione obcaecati harum ut
-                        explicabo similique aliquid nisi quo?</p>
+                    <p>NCSOFT<br>Jan 2019 - Feb 2023</p>
+                    <p>Section Studios<br>May 2018 - Sep 2018</p>
+                    <p>Disney Interactive Studios<br>Sep 2016 - Mar 2018</p>
                 </div>
             </div>
-            <div class="education-container card shadow mb-3">
+            <div id="education" class="education-container card shadow mb-5">
                 <div class="card-header">
                     <p>Education</p>
                 </div>
                 <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia autem nemo obcaecati
-                        assumenda ducimus repellendus libero quae dolore dolor? Nihil, ratione obcaecati harum ut
-                        explicabo similique aliquid nisi quo?</p>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Coding Dojo (in-progress)
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Online coding bootcamp training to be a Fullstack Developer
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    ChungHua University (2014)
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong> Masters in Computer Science & Information Technology</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Bellevue Community College (2009)
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Associates in Digital Media and Animation</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    National Experimental High School (2004)
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>International Bilingual High School in Taiwan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="references-container card shadow mb-3">
+            <div id="references" class="references-container card shadow mb-5">
                 <div class="card-header">
                     <p>References</p>
                 </div>
@@ -129,7 +199,7 @@
                         explicabo similique aliquid nisi quo?</p>
                 </div>
             </div>
-            <div class="contact-container card shadow mb-3">
+            <div id="contact-me" class="contact-container card shadow mb-5">
                 <div class="card-header">
                     <p>Contact Me</p>
                 </div>
@@ -140,7 +210,8 @@
                     </div>
                     <div class="email contact mb-3">
                         <label for="firstName" class="form-label">Email:</label>
-                        <input type="text" name="email" id="email" class="form-control" placeholder="youremail@domain.com" required>
+                        <input type="text" name="email" id="email" class="form-control"
+                            placeholder="youremail@domain.com" required>
                     </div>
                     <textarea name="message" id="message" cols="100" rows="10" placeholder="Message..."></textarea>
                     <div class="text-end">

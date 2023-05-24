@@ -5,25 +5,47 @@
 
 .overall-container {
     display: flex;
-    gap: 20px;
-    background-color: lightblue;
+    /* gap: 3rem; */
+    background-color: rgb(130, 210, 255);
 }
 
 /* nav bar */
 .left-navbar {
-    background-color: lightskyblue;
+    background-color: rgb(0, 100, 255);
+    /* height: 100%; */
+    color: white;
+    padding: 3rem;
     text-align: center;
-    height: 100%;
-    color: black;
-    padding: 30px;
-    /* margin-top: 30px; */
+    position: fixed;
 }
 .left-navbar > img {
     height: 200px;
     border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
 }
 .left-navbar > ol {
+    padding: 0;
     list-style-type: none;
+    text-decoration: none;
+}
+.left-navbar > ol > li > a {
+    color: white;
+    text-decoration: none;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.social-links > a {
+    text-decoration: none;
+    color: white;
+}
+.link-social > img {
+    display: flex;
+    height: 50px;
 }
 
 .top-navbar {
@@ -36,6 +58,14 @@
 /* .body-container {
     background-color: pink;
 } */
+.card-header > p {
+    font-size: 45px;
+}
+
+.services-container > .card-body {
+    display: flex;
+    gap: 5rem;
+}
 
 .contact {
     display: flex;
@@ -51,4 +81,5 @@
 }
 #message {
     width: 100%;
+    resize: none;
 }
