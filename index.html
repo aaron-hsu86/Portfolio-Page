@@ -54,7 +54,8 @@
             <img class="profile-pic" src="./images/Profile Pic.jpg" alt="profile-pic">
             <p>Aaron Hsu</p>
             <div onclick="myFunction()" class="dropdown">
-                <button class="dropbtn">Menu <img src="./images/Menu-button.png" alt="menu-button" class="menu-button"></button>
+                <button class="dropbtn">Menu <img src="./images/Menu-button.png" alt="menu-button"
+                        class="menu-button"></button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
@@ -80,6 +81,7 @@
                     <p>Welcome to my page!</p>
                 </div>
             </div>
+
             <!-- About -->
             <div id="about" class="about-container card shadow mb-5">
                 <div class="card-header">
@@ -94,6 +96,7 @@
                         all forms of media, and a tentative D&D enthusiast. Pleased to make your acquaintance!</p>
                 </div>
             </div>
+
             <!-- Skills -->
             <div id="skills" class="skills-container card shadow mb-5">
                 <div class="card-header">
@@ -104,22 +107,24 @@
                         as a programmer. Check out some of my skills below:</p>
                 </div>
             </div>
+
             <!-- Services -->
             <div id="services" class="services-container card shadow mb-5">
                 <div class="card-header">
-                    <p>Services I provide with my expertise:</p>
+                    <p>Available Services from expertise:</p>
                 </div>
                 <div class="card-body">
                     <div class="expertise-card">
-                        <p>Quality Assurance</p>
+                        <p class="header"><strong>Quality Assurance</strong></p>
                         <p>Functional testing and issue tracking</p>
                     </div>
                     <div class="expertise-card">
-                        <p>Software (in-progress)</p>
+                        <p class="header"><strong>Software Development (in-progress)</strong></p>
                         <p>Backend and Frontend development</p>
                     </div>
                 </div>
             </div>
+
             <!-- Certifications -->
             <div id="certifications" class="certification-container card shadow mb-5">
                 <div class="card-header">
@@ -134,6 +139,7 @@
 
                 </div>
             </div>
+
             <!-- Projects -->
             <div id="projects" class="projects-container card shadow mb-5">
                 <div class="card-header">
@@ -158,75 +164,145 @@
                     </a> -->
                 </div>
             </div>
+
             <!-- Work Experience -->
             <div id="experience" class="experience-container card shadow mb-5">
                 <div class="card-header">
                     <p>Work Experience</p>
                 </div>
                 <div class="card-body">
-                    <p>NCSOFT<br>Jan 2019 - Feb 2023</p>
-                    <p>Section Studios<br>May 2018 - Sep 2018</p>
-                    <p>Disney Interactive Studios<br>Sep 2016 - Mar 2018</p>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    <p><strong>NCSOFT</strong><br>
+                                    Jan 2019 - Feb 2023</p>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>Quality Assurance Tester -> Senior Quality Assurance Tester</strong>
+                                    <ul>
+                                        <li>Develop Test Plans to test new features</li>
+                                        <li>Coordinate with testers and assign tasks</li>
+                                        <li>Verify quality of builds from Developers</li>
+                                        <li>Assist Customer Service team with investigating, verifying, and resolving
+                                            issues on Live</li>
+                                        <li>Track and verify issues in JIRA database</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    <p><strong>Section Studios</strong><br>May 2018 - Sep 2018</p>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong>QA Tester</strong>
+                                    <ul>
+                                        <li>Coordinate with team to test new features</li>
+                                        <li>Verify quality of builds from Developers</li>
+                                        <li>Track and verify issues in JIRA database</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    <p><strong>Disney Interactive Studios</strong><br>Sep 2016 - Mar 2018</p>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>Contracted QA Tester</strong>
+                                    <ul>
+                                        <li>Quality Assurance in Text, Graphics, and Gameplay for Disney Mobile Games
+                                        </li>
+                                        <li>Ensure application content is compliant with Disney First Party Standards
+                                            and COPPA guidelines</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
+
             <!-- Education -->
             <div id="education" class="education-container card shadow mb-5">
                 <div class="card-header">
                     <p>Education</p>
                 </div>
                 <div class="card-body">
-                    <div class="accordion" id="accordionExample">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
                                     <strong>Coding Dojo (in-progress)</strong>
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     Online coding bootcamp training to be a Fullstack Developer
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
+                            <h2 class="accordion-header" id="flush-headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
                                     <strong>ChungHua University (2014)</strong>
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     Masters in Computer Science & Information Technology
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
+                            <h2 class="accordion-header" id="flush-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
                                     <strong>Bellevue Community College (2009)</strong>
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Associates in Digital Media and Animation
-                                </div>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Associates in Digital Media and Animation</div>
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
+                            <h2 class="accordion-header" id="flush-headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
                                     <strong>National Experimental High School (2004)</strong>
                                 </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     International Bilingual High School in Hsinchu, Taiwan
                                 </div>
@@ -235,6 +311,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- References -->
             <div id="references" class="references-container card shadow mb-5">
                 <div class="card-header">
@@ -246,31 +323,6 @@
                         explicabo similique aliquid nisi quo?</p>
                 </div>
             </div>
-            <!-- Contact Me - section removed for now -->
-            <!-- <div id="contact-me" class="contact-container card shadow mb-5">
-                <div class="card-header">
-                    <p>Contact Me</p>
-                </div>
-                <div class="card-body">
-                        <div class="first-name contact mb-3">
-                            <label for="Name" class="form-label">Name:</label>
-                            <input type="text" name="Name" id="Name" class="form-control" placeholder="Your Name"
-                                required>
-                        </div>
-                        <div class="email contact mb-3">
-                            <label for="firstName" class="form-label">Email:</label>
-                            <input type="text" name="email" id="email" class="form-control"
-                                placeholder="contact@email.com" required>
-                        </div>
-                        <textarea name="message" id="message" cols="100" rows="10" placeholder="Message..."></textarea>
-                        <div class="text-end">
-                            <button type="submit" class="btn btn-primary">Send</button>
-                        </div>
-                    temporarily disabling form function for now
-                    <form method="post" enctype="text/plain">
-                    </form>
-                </div>
-            </div> -->
         </div>
 
     </div>
