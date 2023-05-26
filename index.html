@@ -31,11 +31,15 @@
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#references">References</a></li>
-                    <li><a href="#contact-me">Contact</a></li>
+                    <!-- <li><a href="#contact-me">Contact</a></li> -->
                 </ol>
                 <div class="social-links">
+                    <a class="link-social" href="mailto:aaron.hsu86@gmail.com">
+                        <img src="./images/fancy-email.png" alt="email-icon" class="email-icon">
+                        Email me
+                    </a>
                     <a class="link-social" href="https://github.com/aaron-hsu86">
-                        <img class="github-icon" src="./images/GITHUB-LOGO-1024x576.png" alt="github-icon">
+                        <img src="./images/GITHUB-LOGO-1024x576.png" alt="github-icon" class="github-icon">
                         GitHub
                     </a>
                     <a class="link-social" href="https://www.linkedin.com/in/aaronhsu/">
@@ -47,7 +51,22 @@
         </div>
         <!-- show top navbar when in mobile mode? -->
         <div class="top-navbar">
-            <p>Navbar is currently hidden. Will reveal when I figure out changing to a mobile setting</p>
+            <img class="profile-pic" src="./images/Profile Pic.jpg" alt="profile-pic">
+            <p>Aaron Hsu</p>
+            <div onclick="myFunction()" class="dropdown">
+                <button class="dropbtn">Menu <img src="./images/Menu-button.png" alt="menu-button" class="menu-button"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Services</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#references">References</a>
+                </div>
+            </div>
         </div>
 
         <!-- Body material -->
@@ -72,7 +91,7 @@
                         struggle in the Coding Dojo Full Stack program! I have a diverse background ranging from a
                         degree in Digital Media & Animation, to doing Black & Gray box testing and functional QA
                         testing. I'm a passionate gamer, interested in game design and development, a casual enjoyer of
-                        all forms of media, and a tentative D&D enthusiast. I'm pleased to make your acquaintance!</p>
+                        all forms of media, and a tentative D&D enthusiast. Pleased to make your acquaintance!</p>
                 </div>
             </div>
             <!-- Skills -->
@@ -112,7 +131,7 @@
                         <img src="./images/CSS.png" alt="css-image" class="cert-icon">
                         <img src="./images/JS.png" alt="js-icon" class="cert-icon">
                     </div>
-                    
+
                 </div>
             </div>
             <!-- Projects -->
@@ -121,7 +140,22 @@
                     <p>Projects</p>
                 </div>
                 <div class="card-body">
-                    <p>Space to link projects</p>
+                    <a href="https://github.com/aaron-hsu86/4_Function_Calculator.git">
+                        <img class="icons" src="./images/calculator.png" alt="calculator-icon">
+                        4-Function Calculator
+                    </a>
+                    <a href="https://github.com/aaron-hsu86/DojoWeather.git">
+                        <img class="icons" src="./images/weather-icon.png" alt="weather-icon">
+                        DojoWeather
+                    </a>
+                    <a href="https://github.com/aaron-hsu86/Making_Connections.git">
+                        <img class="icons" src="./images/user-circle.png" alt="profile-icon">
+                        Making Connections
+                    </a>
+                    <a href="https://github.com/aaron-hsu86/Portfolio-Page.git">
+                        <img class="icons" src="./images/user-circle.png" alt="profile-icon">
+                        Profile Page
+                    </a>
                 </div>
             </div>
             <!-- Work Experience -->
@@ -146,7 +180,7 @@
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Coding Dojo (in-progress)
+                                    <strong>Coding Dojo (in-progress)</strong>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -160,13 +194,13 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    ChungHua University (2014)
+                                    <strong>ChungHua University (2014)</strong>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong> Masters in Computer Science & Information Technology</strong>
+                                    Masters in Computer Science & Information Technology
                                 </div>
                             </div>
                         </div>
@@ -174,13 +208,13 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Bellevue Community College (2009)
+                                    <strong>Bellevue Community College (2009)</strong>
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>Associates in Digital Media and Animation</strong>
+                                    Associates in Digital Media and Animation
                                 </div>
                             </div>
                         </div>
@@ -188,13 +222,13 @@
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    National Experimental High School (2004)
+                                    <strong>National Experimental High School (2004)</strong>
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>International Bilingual High School in Taiwan</p>
+                                    International Bilingual High School in Hsinchu, Taiwan
                                 </div>
                             </div>
                         </div>
@@ -212,14 +246,12 @@
                         explicabo similique aliquid nisi quo?</p>
                 </div>
             </div>
-            <!-- Contact Me -->
-            <div id="contact-me" class="contact-container card shadow mb-5">
+            <!-- Contact Me - section removed for now -->
+            <!-- <div id="contact-me" class="contact-container card shadow mb-5">
                 <div class="card-header">
                     <p>Contact Me</p>
                 </div>
                 <div class="card-body">
-                    <!-- temporarily disabling form function for now -->
-                    <!-- <form method="post" enctype="text/plain"> -->
                         <div class="first-name contact mb-3">
                             <label for="Name" class="form-label">Name:</label>
                             <input type="text" name="Name" id="Name" class="form-control" placeholder="Your Name"
@@ -234,9 +266,11 @@
                         <div class="text-end">
                             <button type="submit" class="btn btn-primary">Send</button>
                         </div>
-                    <!-- </form> -->
+                    temporarily disabling form function for now
+                    <form method="post" enctype="text/plain">
+                    </form>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>
@@ -248,7 +282,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
